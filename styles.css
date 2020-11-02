@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Comic+Neue&display=swap');
 body{
     margin: 0px;
     padding: 0px;
@@ -42,21 +44,39 @@ body{
     text-align: center;
     
 }
-.lower-container h3, h4{
+.lower-container h4{
     box-sizing: border-box;
     line-height: .6;
     font-weight: lighter;
 
 }
+.lower-container h3{
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Bangers', cursive;
+    color:#04B486;
+
+}
+
+
 .lower-container h4{
     color: #04B486;
     opacity: .6;
-    font-weight: bold;    
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+    font-family: 'Comic Neue', cursive;
+
 }
 .lower-container p{
     font-size: 16px;
     color: grey;
     margin-bottom: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Comic Neue', cursive;
+ 
 }
 .lower-container .btn{
     padding: 12px 20px;
@@ -68,11 +88,14 @@ body{
     text-decoration: none;
     font-weight: bold;
     transition: all .3s ease-in;
+    font-family: 'Bangers', cursive;
+    font-family: 'Comic Neue', cursive;
+    
 }
 .lower-container .btn:hover{
     background: transparent;
-    color: #7F00FF;
-    border: 2px solid #7F00FF;
+    color: #04B486;
+    border: 2px solid #04B486;
 
 }
 
