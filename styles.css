@@ -6,7 +6,6 @@ body{
     background: #f1f1f1;
     font-family: arial;
     box-sizing: border-box;
-
 }
 .card-container{
     width: 300px;
@@ -20,12 +19,10 @@ body{
     box-shadow: 0px 1px 10px 1px #000;
     overflow:hidden;
     display: inline-block;
-
 }
 .upper-container{
     height: 150px;
     background: #4B088A;
-
 }
 .image-container img{
     background: white;
@@ -34,21 +31,17 @@ body{
     border-radius: 50px;
     padding: 5px;
     transform: translate(100px, 100px);
-
 }
 .lower-container{
     height: 280px;
     background:#FFF;
     padding: 20px;
     padding-top: 40px;
-    text-align: center;
-    
-}
+    text-align: center;    }
 .lower-container h4{
     box-sizing: border-box;
     line-height: .6;
     font-weight: lighter;
-
 }
 .lower-container h3{
     box-sizing: border-box;
@@ -57,10 +50,7 @@ body{
     font-family: 'Bangers', cursive;
     font-family: 'Comic Neue', cursive;
     color:#4B088A;
-
 }
-
-
 .lower-container h4{
     color: #4B088A;
     opacity: .6;
@@ -76,8 +66,7 @@ body{
     font-family: 'Amatic SC', cursive;
     font-family: 'Bangers', cursive;
     font-family: 'Comic Neue', cursive;
- 
-}
+ }
 .lower-container .btn{
     padding: 12px 20px;
     background: #4B088A;
@@ -90,7 +79,6 @@ body{
     transition: all .3s ease-in;
     font-family: 'Bangers', cursive;
     font-family: 'Comic Neue', cursive;
-    
 }
 .lower-container .btn:hover{
     background: transparent;
